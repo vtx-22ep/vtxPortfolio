@@ -1,5 +1,105 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* General Styles */
+    *{
+      padding: 0;
+      box-sizing: border-box;
+      margin: 0;
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    h1, h2, h3, h4 {
+      font-weight: 600;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    .text-grey {
+      color: #6c757d;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #f8f9fa;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .nav-link {
+      color: #000 !important;
+      margin-right: 20px;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      color: #6c757d !important;
+    }
+
+    /* Hero Section */
+    #hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: #f8f9fa;
+    }
+
+    #hero h1 {
+      font-size: 3rem;
+    }
+
+    #hero p {
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+
+    /* About Section */
+    #about img {
+      border-radius: 10px;
+      max-width: 100%;
+    }
+
+    /* Skills Section */
+    .skill-box {
+      border: 1px solid #e0e0e0;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .skill-box:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Projects Section */
+    .project-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Contact Section */
+    #contact form input, #contact form textarea {
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #f1f1f1;
+      padding: 20px 0;
+      text-align: center;
+      color: #6c757d;
+    }
