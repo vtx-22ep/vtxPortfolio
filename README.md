@@ -1,4 +1,4 @@
-# portfodali.com
-My first portfolio website - portfoDali.com
+# vtxPortfolio
+My first portfolio website - vtx22ep.com
 
 just for conformation!
