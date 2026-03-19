@@ -118,11 +118,16 @@ code {
 }
 
 :root{
-  --first-color: #2a2438;
+  /* --first-color: #2a2438;
   --second-color: #352f44;
   --third-color: #5c5470;
   --fourth-color: #dbd8e3;
-  --optional-color: #f2f2f2;
+  --optional-color: #f2f2f2; */
+  --first-color: #000000;
+  --second-color: #66666e;
+  --third-color: #9999a1;
+  --fourth-color: #e6e6e9;
+  --fifth-color: #f4f4f6;
 }
 
 body{
