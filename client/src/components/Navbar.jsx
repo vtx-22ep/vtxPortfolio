@@ -1,7 +1,7 @@
 function Navbar(){
     return(
         <>
-            <nav>
+            {/* <nav>
                 <div className="nav-links">
                 <a href="#">
                     <h3>vtx-22ep.com</h3>
@@ -13,6 +13,21 @@ function Navbar(){
                     <li><a href="#">PROJECT</a></li>
                     <li><a href="#">CONTACT</a></li>
                 </ul>
+                </div>
+            </nav> */}
+
+            <header>
+                <h6>VTX-22EP</h6>
+            </header>
+            <nav>
+                <div className="nav-links">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">PROJECT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
                 </div>
             </nav>
         </>
