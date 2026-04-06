@@ -18,24 +18,22 @@
   --fourth-color: #e6e6e9;
   --fifth-color: #f4f4f6; */
 
-  --first-color: #091a36;
+  /* --first-color: #091a36;
   --second-color: #38475e;
   --third-color: #6a7686;
   --fourth-color: #838c9b;
   --fifth-color: #e6e7eb;
-  --font-color: #000000;
+  --font-color: #000000; */
+
+  --first-color: #ff4301;
+  --second-color: #fa7d09;
+  --third-color: #4a3f35;
+  --fourth-color: #2f2519;
+  --optional-color: #ffffff;
 }
 
 body{
-  /* background-color: var(--third-color); */
-  background-image: url(./assets/bg_img_light.png);
-  backdrop-filter: blur(30px);
+  background-image: url(assets/bg_img_light.png);
+  background-position: center;
+  background-size: 100%;
 }
-
-main{
-  width: 75%;
-  /* height: 800px; */
-  margin: auto;
-  /* border: 1px solid black; */
-}
-

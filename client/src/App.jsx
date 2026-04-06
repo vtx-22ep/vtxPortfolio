@@ -1,11 +1,11 @@
 import './App.css'
-import Navbar from './components/Navbar.jsx'
+import Navbar from './components/Navbar/Navbar.jsx'
 
 function App() {
   return (
     <>
-      <Navbar />
       <main>
+        <Navbar />
         <section className="home">
           <div className="my-self">
             <h5>Hello, Everyone! This is</h5>
